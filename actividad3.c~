@@ -1,28 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h> 
-#include <header.h>
+#include "header.h"
  
    
     
 int main()
 {
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	 
-	
-	
-	
-    
-  
- 
+printf("datoscargados%d",cargarDatos());
+printf("los datos fueron cargados con exito, mostrando: %d",leerDatos());
     return 0;
     }
 
